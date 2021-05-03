@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: #111;
+    font-family: "DTL Fleischmann", serif;
+    color: white;
+}
+
+.container {
+    padding: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.controls {
+    margin-top: 1em;
+    text-align: center;
+}
+
+button {
+    background-color: #111;
+    color: #eee;
+    padding: 0.1em 0.5em;
+    border: 1px solid #777;
+    border-radius: 3px;
+    margin: 0 0.1em;
+}
